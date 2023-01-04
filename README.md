@@ -31,7 +31,7 @@ These puzzels are designed to be solved on the computer science departments linu
 These can be accessed with your UAH CS account through an ssh client such as putty or similar.
 
 
-    catalina.cs.uah.edu
+ catalina.cs.uah.edu
     conquest.cs.uah.edu
     crusader.cs.uah.edu
     dakota.cs.uah.edu
