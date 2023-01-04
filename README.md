@@ -52,41 +52,41 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         This puzzle consists of a script that will generate 10,000 files with random names and contents! (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) Your job is to deal with these files by searching for specific content. However, there are way too many files to search by hand AND the files are randomly generated each time!
 
 
-Your goal is to find any number of one line commands that will:
-* run the HAYDEN_swarm.sh script
-* move to the newly created directory
-* search the files contents to find the specific string ‘gg’ 
-* rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
+    Your goal is to find any number of one line commands that will:
+    * run the HAYDEN_swarm.sh script
+    * move to the newly created directory
+    * search the files contents to find the specific string ‘gg’ 
+    * rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
 
 
-Useful commands that may help you out:
-cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
+    Useful commands that may help you out:
+    cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
 
 
 ## 2. AWKward... SED no one ever!
 
 
-Who has ever said that using awk and sed is awkward? Not you! 
+    Who has ever said that using awk and sed is awkward? Not you! 
 
-Your goal is to find any number of one line commands that will:
-* 
+    Your goal is to find any number of one line commands that will:
+    * 
 
-Useful commands that may help you out:
-awk, sed, cd, chmod, echo, ls
+    Useful commands that may help you out:
+    awk, sed, cd, chmod, echo, ls
 
 
 ## 3. Takin’ out da trash
 
 
-This puzzle consists of a handful of generated source files in the C programming language. These files should not be changed and you are not expected to know any C. The generator however… is not very good :(
+    This puzzle consists of a handful of generated source files in the C programming language. These files should not be changed and you are not expected to know any C. The generator however… is not very good :(
 
 
-Your goal is to find any number of one line commands that will:
-* Find out which C files will not compile and then delete them
+    Your goal is to find any number of one line commands that will:
+    * Find out which C files will not compile and then delete them
 
 
-Useful commands that may help you out:
-cd, pwd, rm, gcc, echo, ls, clang
+    Useful commands that may help you out:
+    cd, pwd, rm, gcc, echo, ls, clang
 
 
 ## 4. Hamblurber
@@ -95,25 +95,25 @@ cd, pwd, rm, gcc, echo, ls, clang
         This puzzle consists of a directory of simple text files, each holding the word for a burger ingredient.
 
 
-Your goal is to find any number of one line commands that will:
- * merge these files together in an order that makes an appropriate hamburger. (no patties on top of the buns ok?) 
+    Your goal is to find any number of one line commands that will:
+    * merge these files together in an order that makes an appropriate hamburger. (no patties on top of the buns ok?) 
 
 
 ## 4. Internet Expressway
 
 
-        This puzzle consists of downloading and uploading data through the internet
+    This puzzle consists of downloading and uploading data through the internet
 
-Useful commands that may help you out:
-cd, ls, pwd, touch, curl, wget, scp
+    Useful commands that may help you out:
+    cd, ls, pwd, touch, curl, wget, scp
 
 ## 6. Turn it all in!
 
         This is so close to the end! But turning this project in may be a puzzle in of itself! 
 
 
-Your goal is to :
-* Turn all of your command line methods for solving all of the puzzles into a single script
-* create a tar ball of everything including your script, then submit!
+    Your goal is to :
+    * Turn all of your command line methods for solving all of the puzzles into a single script
+    * create a tar ball of everything including your script, then submit!
 
 
