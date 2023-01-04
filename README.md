@@ -1,5 +1,5 @@
-﻿# Welcome to Ride The Command Line, the very first project for the
- Student Readniess Program by the UAH ACM chapter!
+﻿# Ride The Command Line
+## Welcome to the very first project for the Student Readniess Program by the UAH ACM chapter!
 
 Host : Hayden Estes
 Academic Semester : Spring 2023
