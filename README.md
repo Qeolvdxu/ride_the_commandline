@@ -32,17 +32,29 @@ These can be accessed with your UAH CS account through an ssh client such as put
 
 
  catalina.cs.uah.edu
-    conquest.cs.uah.edu
-    crusader.cs.uah.edu
-    dakota.cs.uah.edu
-    duchess.cs.uah.edu
-    havoc.cs.uah.edu
-    hawker.cs.uah.edu
-    invader.cs.uah.edu
-    lightning.cs.uah.edu
-    marauder.cs.uah.edu
-    shrike.cs.uah.edu
-    whirlwind.cs.uah.edu
+ 
+ conquest.cs.uah.edu
+    
+   crusader.cs.uah.edu
+   
+   dakota.cs.uah.edu
+   
+   duchess.cs.uah.edu
+    
+   havoc.cs.uah.edu
+    
+   hawker.cs.uah.edu
+    
+   invader.cs.uah.edu
+    
+   lightning.cs.uah.edu
+    
+   marauder.cs.uah.edu
+    
+   shrike.cs.uah.edu
+    
+   whirlwind.cs.uah.edu
+    
 
 TIP : Try to solve the puzzles manually via the command line, then write your script only after you know the solution
 
