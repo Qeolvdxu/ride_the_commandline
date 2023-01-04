@@ -63,19 +63,16 @@ Useful commands that may help you out:
 cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
 
 
-## 2. (Shredded Premission) or (Tug of War) 
+## 2. AWKward... SED no one ever!
 
 
-        This puzzle consists of two premade scripts. One is the “good” script which is going to store a secret code. The other “bad” script is going to try to read this code. These scripts will interact with the same set of files in a directory. 
-
+Who has ever said that using awk and sed is awkward? Not you! 
 
 Your goal is to find any number of one line commands that will:
-* Make it so the “good” script has permission to store its code
-* Block out the “bad” script so that it can not read the code
-
+* 
 
 Useful commands that may help you out:
-cd, chmod, echo, ls
+awk, sed, cd, chmod, echo, ls
 
 
 ## 3. Takin’ out da trash
@@ -92,7 +89,7 @@ Useful commands that may help you out:
 cd, pwd, rm, gcc, echo, ls, clang
 
 
-##4. Hamblurber
+## 4. Hamblurber
 
 
         This puzzle consists of a directory of simple text files, each holding the word for a burger ingredient.
