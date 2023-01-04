@@ -47,7 +47,7 @@ These can be accessed with your UAH CS account through an ssh client such as put
 TIP : Try to solve the puzzles manually via the command line, then write your script only after you know the solution
 
 
-##1. THE SWARM
+## 1. THE SWARM
         
         This puzzle consists of a script that will generate 10,000 files with random names and contents! (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) Your job is to deal with these files by searching for specific content. However, there are way too many files to search by hand AND the files are randomly generated each time!
 
@@ -63,7 +63,7 @@ Useful commands that may help you out:
 cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
 
 
-##2. (Shredded Premission) or (Tug of War) 
+## 2. (Shredded Premission) or (Tug of War) 
 
 
         This puzzle consists of two premade scripts. One is the “good” script which is going to store a secret code. The other “bad” script is going to try to read this code. These scripts will interact with the same set of files in a directory. 
@@ -78,7 +78,7 @@ Useful commands that may help you out:
 cd, chmod, echo, ls
 
 
-##3. Takin’ out da trash
+## 3. Takin’ out da trash
 
 
 This puzzle consists of a handful of generated source files in the C programming language. These files should not be changed and you are not expected to know any C. The generator however… is not very good :(
@@ -102,7 +102,7 @@ Your goal is to find any number of one line commands that will:
  * merge these files together in an order that makes an appropriate hamburger. (no patties on top of the buns ok?) 
 
 
-##5. Internet Expressway
+## 4. Internet Expressway
 
 
         This puzzle consists of downloading and uploading data through the internet
@@ -110,7 +110,7 @@ Your goal is to find any number of one line commands that will:
 Useful commands that may help you out:
 cd, ls, pwd, touch, curl, wget, scp
 
-##6. Turn it all in!
+## 6. Turn it all in!
 
         This is so close to the end! But turning this project in may be a puzzle in of itself! 
 
