@@ -61,7 +61,10 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 ## 1. THE SWARM
         
-        This puzzle consists of a script that will generate 10,000 files with random names and contents! (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) Your job is to deal with these files by searching for specific content. However, there are way too many files to search by hand AND the files are randomly generated each time!
+        This puzzle consists of a script that will generate 10,000 files with random names and contents! 
+        (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) 
+        Your job is to deal with these files by searching for specific content. 
+        However, there are way too many files to search by hand AND the files are randomly generated each time!
 
 
     Your goal is to find any number of one line commands that will:
