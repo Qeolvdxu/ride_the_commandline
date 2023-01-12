@@ -87,7 +87,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     awk, sed, cd, chmod, echo, ls
 
 
-## 3. Takin’ out da trash
+## 3. Takin’ out the trash
 
 
     This puzzle consists of a handful of generated source files in the C programming language. These files should not be changed and you are not expected to know any C. The generator however… is not very good :(
@@ -101,14 +101,14 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     cd, pwd, rm, gcc, echo, ls, clang
 
 
-## 4. Hamblurber
+## 4. TEST
 
 
-        This puzzle consists of a directory of simple text files, each holding the word for a burger ingredient.
+        This puzzle consists of a directory of simple text files, each holding the word for a ingredient.
 
 
     Your goal is to find any number of one line commands that will:
-    * merge these files together in an order that makes an appropriate hamburger. (no patties on top of the buns ok?) 
+    * merge these files together in an order that makes an appropriate.  
 
 
 ## 4. Internet Expressway
