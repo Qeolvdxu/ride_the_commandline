@@ -1,9 +1,12 @@
 ﻿# Ride The Command Line
 ## Welcome to the very first project for the Student Readniess Program by the UAH ACM chapter!
 
-Host : Hayden Estes
+Host : Hayden V Estes
+
 Academic Semester : Spring 2023
+
 Workshop Sequence Number : 1
+
 
 This project will consist of opening up a tar ball full of puzzles that can be solved with the linux commandline. :)
 
