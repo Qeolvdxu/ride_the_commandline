@@ -96,11 +96,16 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 3. Takin’ out the trash
 
 
-    This puzzle consists of a handful of generated source files in the C programming language. These files should not be changed and you are not expected to know any C. The generator however… is not very good :(
+
+    This puzzle consists of a script (HAYDEN_trash.sh) that generates a single source file 
+    in the C programming language. This file should not be changed and you are not expected to know any C. 
+    The generator however… is not very good :(
 
 
     Your goal is to find any number of one line commands that will:
-    * Find out which C files will not compile and then delete them
+    * Run the HAYDEN_trash.sh script
+    * compile the created files
+    * organize the files based on the compilers return value
 
 
     Useful commands that may help you out:
