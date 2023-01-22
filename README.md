@@ -61,6 +61,10 @@ These can be accessed with your UAH CS account through an ssh client such as put
 
 TIP : Try to solve the puzzles manually via the command line, then write your script only after you know the solution
 
+## 0. Step-by-step
+
+       This puzzle consists of a premade directory with some different files. You will use your basic command line skills
+       to solve this puzzle. 
 
 ## 1. THE SWARM
         
@@ -85,9 +89,12 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 
     Who has ever said that using awk and sed is awkward? Not you! 
-
+    Awk and Sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
+    We need some large body of text, the bee movie script included in this repo so lets try that.
+    (Make sure to keep your creative writing ACM friendly!)
+    
     Your goal is to find any number of one line commands that will:
-    * 
+    * replace all 
 
     Useful commands that may help you out:
     awk, sed, cd, chmod, echo, ls
@@ -96,7 +103,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 3. Takin’ out the trash
 
 
-
+    Let's see how to access a programs return value and what we can do with it.
     This puzzle consists of a script (HAYDEN_trash.sh) that generates a single source file 
     in the C programming language. This file should not be changed and you are not expected to know any C. 
     The generator however… is not very good :(
@@ -112,25 +119,37 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     cd, pwd, rm, gcc, echo, ls, clang
 
 
-## 4. TEST
+## 4. Minotaur
 
 
-        This puzzle consists of a directory of simple text files, each holding the word for a ingredient.
-
+        Sometimes you know what file you need but you don't know exactly where it is.
+        This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
+        There is also the HAYDEN_minotaur.sh script which will create the directory tree and place the minotaur in a random leaf.
 
     Your goal is to find any number of one line commands that will:
-    * merge these files together in an order that makes an appropriate.  
+    * run the HAYDEN_minotaur.sh script.
+    * Move the minotaur file into the root directory.
 
 
-## 4. Internet Expressway
+## 5. Internet Expressway
 
 
     This puzzle consists of downloading and uploading data through the internet
 
     Useful commands that may help you out:
     cd, ls, pwd, touch, curl, wget, scp
+    
+## 6. Self-referential Recursion
 
-## 6. Turn it all in!
+    Now you will learn that different commands may have similar flags.
+    This puzzle consists of using different commands with the recursion flag.
+    
+    
+    Your goal is to :
+    * 
+    *
+
+## 7. Turn it all in!
 
         This is so close to the end! But turning this project in may be a puzzle in of itself! 
 
