@@ -140,3 +140,20 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     * create a tar ball of everything including your script, then submit!
 
 
+# Resources
+
+Command Line basics :
+https://linuxcommand.org/lc3_learning_the_shell.php
+
+Awk and Sed :
+https://www.makeuseof.com/tag/sed-awk-learn/
+
+Grep :
+https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+
+Curl and Wget : 
+https://www.redhat.com/sysadmin/tips-tricks-curl-wget
+
+Xargs : 
+https://linuxhint.com/xargs_linux/
+
