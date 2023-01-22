@@ -66,7 +66,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
          This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, 
          and copy files. The basics are all you need to solve this puzzle. 
 
-
+    * use 'git clone https://github.com/Qeolvdxu/ride_the_commandline/blob/main/README.md' to get a copy of this repo
     * create a directory called step-by-step
     * move into the new directory
     * use the '>' command to store the output of 'ls ..' into a file ( '..' is the parent directory while '.' is the curren ) 
@@ -78,26 +78,48 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     Useful commands that may help you out:
     ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
 
-## 1. THE SWARM
-        
-        This puzzle consists of a script that will generate 10,000 files with random names and contents! 
-        (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) 
-        Your job is to deal with these files by searching for specific content. 
-        However, there are way too many files to search by hand AND the files are randomly generated each time!
+
+## 1. Minotaur
+
+
+        Sometimes you know what file you need but you don't know exactly where it is.
+        This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
+        There is also the HAYDEN_minotaur.sh script which will create the directory tree and place the minotaur in a random leaf.
 
 
     Your goal is to find any number of one line commands that will:
-    * run the HAYDEN_swarm.sh script
-    * move to the newly created directory
-    * search the files contents to find the specific string ‘gg’ 
-    * rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
+    * run the HAYDEN_minotaur.sh script.
+    * Move the minotaur file into the root directory.
+  
+    Useful commands that may help you out:
+    cd, ls, mv, find, tree
+
+## 2. Self-referential Recursion
+
+        Now you will learn that different commands may have similar flags.
+        This puzzle consists of using different commands with the recursion flag.
+    
+    
+    Your goal is to find any number of one line commands that will:
+    * 
+    *
+
+## 3. Internet Expressway
+
+
+        This puzzle consists of using data through the internet. Did you know we have a website?
+        It's uah.acm.org :)
+        Let's use our website as a data source.
+        
+      Your goal is to find any number of one line commands that will:
+      *
 
 
     Useful commands that may help you out:
-    cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
+    cd, ls, pwd, touch, curl, wget, scp
 
 
-## 2. AWKward... SED no one ever!
+## 4. AWKward... SED no one ever!
 
 
         Who has ever said that using awk and sed is awkward? Not you! 
@@ -114,7 +136,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     awk, sed, cd, chmod, echo, ls
 
 
-## 3. Takin’ out the trash
+## 5. Takin’ out the trash
 
 
         Let's see how to access a programs return value and what we can do with it.
@@ -134,44 +156,26 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     cd, pwd, rm, gcc, echo, ls, clang
 
 
-## 4. Minotaur
-
-
-        Sometimes you know what file you need but you don't know exactly where it is.
-        This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
-        There is also the HAYDEN_minotaur.sh script which will create the directory tree and place the minotaur in a random leaf.
-
-
-    Your goal is to find any number of one line commands that will:
-    * run the HAYDEN_minotaur.sh script.
-    * Move the minotaur file into the root directory.
-  
-    Useful commands that may help you out:
-    cd, ls, mv, find, tree
-
-## 5. Internet Expressway
-
-
-        This puzzle consists of using data through the internet. Did you know we have a website?
-        It's uah.acm.org :)
-        Let's use our website as a data source.
+## 6. THE SWARM
         
-      Your goal is to find any number of one line commands that will:
-      *
+        This puzzle consists of a script that will generate 10,000 files with random names and contents! 
+        (dont worry, all the files are put into their own directory which only gets to around 250 kilobytes) 
+        Your job is to deal with these files by searching for specific content. 
+        However, there are way too many files to search by hand AND the files are randomly generated each time!
+
+
+    Your goal is to find any number of one line commands that will:
+    * run the HAYDEN_swarm.sh script
+    * move to the newly created directory
+    * search the files contents to find the specific string ‘gg’ 
+    * rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
 
 
     Useful commands that may help you out:
-    cd, ls, pwd, touch, curl, wget, scp
-    
-## 6. Self-referential Recursion
+    cd, pwd, grep, xargs, find, cat, rename, | (pipe), ls
 
-        Now you will learn that different commands may have similar flags.
-        This puzzle consists of using different commands with the recursion flag.
+
     
-    
-    Your goal is to find any number of one line commands that will:
-    * 
-    *
 
 ## 7. Turn it all in!
 
