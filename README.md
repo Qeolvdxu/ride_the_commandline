@@ -64,13 +64,12 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 0. Step-by-step
 
          This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, 
-         and copy files.
-         The basics are all you need to solve this puzzle. 
+         and copy files. The basics are all you need to solve this puzzle. 
 
 
     * create a directory called step-by-step
     * move into the new directory
-    * use the '>' command to store the output of 'ls ..' into a file ( .. is the parent directory while . is the curren ) 
+    * use the '>' command to store the output of 'ls ..' into a file ( '..' is the parent directory while '.' is the curren ) 
     * copy this files contents into a new file with a different name
     * remove the old copy
     * move the remianing dile into the parent directory
@@ -108,7 +107,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     
     
     Your goal is to find any number of one line commands that will:
-    * replace all 
+    * replace all instances of the word bee to another noun
 
 
     Useful commands that may help you out:
@@ -146,12 +145,19 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     Your goal is to find any number of one line commands that will:
     * run the HAYDEN_minotaur.sh script.
     * Move the minotaur file into the root directory.
-
+  
+    Useful commands that may help you out:
+    cd, ls, mv, find, tree
 
 ## 5. Internet Expressway
 
 
-        This puzzle consists of using data through the internet.
+        This puzzle consists of using data through the internet. Did you know we have a website?
+        It's uah.acm.org :)
+        Let's use our website as a data source.
+        
+      Your goal is to find any number of one line commands that will:
+      *
 
 
     Useful commands that may help you out:
@@ -163,7 +169,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         This puzzle consists of using different commands with the recursion flag.
     
     
-    Your goal is to :
+    Your goal is to find any number of one line commands that will:
     * 
     *
 
