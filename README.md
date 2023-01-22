@@ -63,8 +63,18 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 ## 0. Step-by-step
 
-       This puzzle consists of a premade directory with some different files. You will use your basic command line skills
-       to solve this puzzle. 
+         This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, and copy files.
+         The basics are all you need to solve this puzzle. 
+
+    * create a directory called step-by-step
+    * move into the new directory
+    * use the '>' command to store the output of 'ls ..' into a file ( .. is the parent directory while . is the curren ) 
+    * copy this files contents into a new file with a different name
+    * remove the old copy
+    * move the remianing dile into the parent directory
+
+    Useful commands that may help you out:
+    ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
 
 ## 1. THE SWARM
         
@@ -88,10 +98,10 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 2. AWKward... SED no one ever!
 
 
-    Who has ever said that using awk and sed is awkward? Not you! 
-    Awk and Sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
-    We need some large body of text, the bee movie script included in this repo so lets try that.
-    (Make sure to keep your creative writing ACM friendly!)
+        Who has ever said that using awk and sed is awkward? Not you! 
+        Awk and Sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
+        We need some large body of text, the bee movie script included in this repo so lets try that.
+       (Make sure to keep your creative writing ACM friendly!)
     
     Your goal is to find any number of one line commands that will:
     * replace all 
@@ -103,10 +113,10 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 3. Takin’ out the trash
 
 
-    Let's see how to access a programs return value and what we can do with it.
-    This puzzle consists of a script (HAYDEN_trash.sh) that generates a single source file 
-    in the C programming language. This file should not be changed and you are not expected to know any C. 
-    The generator however… is not very good :(
+        Let's see how to access a programs return value and what we can do with it.
+        This puzzle consists of a script (HAYDEN_trash.sh) that generates a single source file 
+        in the C programming language. This file should not be changed and you are not expected to know any C. 
+        The generator however… is not very good :(
 
 
     Your goal is to find any number of one line commands that will:
@@ -134,15 +144,15 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 5. Internet Expressway
 
 
-    This puzzle consists of downloading and uploading data through the internet
+        This puzzle consists of downloading and uploading data through the internet
 
     Useful commands that may help you out:
     cd, ls, pwd, touch, curl, wget, scp
     
 ## 6. Self-referential Recursion
 
-    Now you will learn that different commands may have similar flags.
-    This puzzle consists of using different commands with the recursion flag.
+        Now you will learn that different commands may have similar flags.
+        This puzzle consists of using different commands with the recursion flag.
     
     
     Your goal is to :
