@@ -127,7 +127,8 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     Your goal is to find any number of one line commands that will:
     * Run the HAYDEN_trash.sh script
     * compile the created files
-    * organize the files based on the compilers return value
+    * organize the files in a directory with the same name as the compiled programs output
+    * delete all source files for programs that do not compile
 
 
     Useful commands that may help you out:
@@ -150,7 +151,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 5. Internet Expressway
 
 
-        This puzzle consists of downloading and uploading data through the internet
+        This puzzle consists of using data through the internet.
 
 
     Useful commands that may help you out:
