@@ -34,9 +34,9 @@ These puzzels are designed to be solved on the computer science departments linu
 These can be accessed with your UAH CS account through an ssh client such as putty or similar.
 
 
- catalina.cs.uah.edu
+   catalina.cs.uah.edu
  
- conquest.cs.uah.edu
+   conquest.cs.uah.edu
     
    crusader.cs.uah.edu
    
@@ -66,12 +66,14 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
          This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, and copy files.
          The basics are all you need to solve this puzzle. 
 
+
     * create a directory called step-by-step
     * move into the new directory
     * use the '>' command to store the output of 'ls ..' into a file ( .. is the parent directory while . is the curren ) 
     * copy this files contents into a new file with a different name
     * remove the old copy
     * move the remianing dile into the parent directory
+
 
     Useful commands that may help you out:
     ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
@@ -103,8 +105,10 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         We need some large body of text, the bee movie script included in this repo so lets try that.
        (Make sure to keep your creative writing ACM friendly!)
     
+    
     Your goal is to find any number of one line commands that will:
     * replace all 
+
 
     Useful commands that may help you out:
     awk, sed, cd, chmod, echo, ls
@@ -136,6 +140,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
         There is also the HAYDEN_minotaur.sh script which will create the directory tree and place the minotaur in a random leaf.
 
+
     Your goal is to find any number of one line commands that will:
     * run the HAYDEN_minotaur.sh script.
     * Move the minotaur file into the root directory.
@@ -145,6 +150,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 
         This puzzle consists of downloading and uploading data through the internet
+
 
     Useful commands that may help you out:
     cd, ls, pwd, touch, curl, wget, scp
@@ -162,7 +168,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 7. Turn it all in!
 
         This is so close to the end! But turning this project in may be a puzzle in of itself! 
-
+        
 
     Your goal is to :
     * Turn all of your command line methods for solving all of the puzzles into a single script
