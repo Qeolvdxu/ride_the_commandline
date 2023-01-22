@@ -63,7 +63,8 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 ## 0. Step-by-step
 
-         This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, and copy files.
+         This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, 
+         and copy files.
          The basics are all you need to solve this puzzle. 
 
 
