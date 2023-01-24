@@ -66,10 +66,11 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
          This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, 
          and copy files. The basics are all you need to solve this puzzle. 
 
-    * use 'git clone https://github.com/Qeolvdxu/ride_the_commandline/blob/main/README.md' to get a copy of this repo
+    * use 'git clone https://github.com/Qeolvdxu/ride_the_commandline' to get a copy of this repo
     * create a directory called step-by-step
     * move into the new directory
-    * use the '>' command to store the output of 'ls ..' into a file ( '..' is the parent directory while '.' is the curren ) 
+    * use the '>' command to store the output of 'ls ..' into a file 
+    TIP :  '..' is the parent directory while '.' is the current directory
     * copy this files contents into a new file with a different name
     * remove the old copy
     * move the remianing dile into the parent directory
@@ -84,7 +85,8 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
         Sometimes you know what file you need but you don't know exactly where it is.
         This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
-        There is also the HAYDEN_minotaur.sh script which will create the directory tree and place the minotaur in a random leaf.
+        There is also the HAYDEN_minotaur.sh script which will create the directory tree and 
+        place the minotaur in a random leaf.
 
 
     Your goal is to find any number of one line commands that will:
@@ -129,7 +131,9 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     
     
     Your goal is to find any number of one line commands that will:
-    * replace all instances of the word bee to another noun
+    * replace all instances of the word bee to another noun in the files data
+    * write all lines that are over 70 characters to  a new file called new_bee_movie.txt
+    * 
 
 
     Useful commands that may help you out:
@@ -148,8 +152,9 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     Your goal is to find any number of one line commands that will:
     * Run the HAYDEN_trash.sh script
     * compile the created files
-    * organize the files in a directory with the same name as the compiled programs output
     * delete all source files for programs that do not compile
+    * organize the files into seperate directories based on return value
+
 
 
     Useful commands that may help you out:
