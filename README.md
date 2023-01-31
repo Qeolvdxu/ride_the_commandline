@@ -114,11 +114,16 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         Let's use our website as a data source.
         
       Your goal is to find any number of one line commands that will:
-      *
+      * print the additions and deletions (diff) between the uah wiki and the old uah wiki 
+      * do not create any files or directories for this challenge
+      
+    Links :
+    (https://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville) 
+    (https://web.archive.org/web/20171216120129/https://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville)
 
 
     Useful commands that may help you out:
-    cd, ls, pwd, touch, curl, wget, scp
+    cd, ls, pwd, touch, curl, wget, scp, diff
 
 
 ## 4. AWKward... SED no one ever!
