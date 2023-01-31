@@ -84,14 +84,14 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 
         Sometimes you know what file you need but you don't know exactly where it is.
-        This puzzle consists of a directory of directories with a empty filed simply called 'minotaur'.
+        This puzzle consists of a directory of directories with a empty hidden file simply called '.minotaur'.
         There is also the HAYDEN_minotaur.sh script which will create the directory tree and 
         place the minotaur in a random leaf.
 
 
     Your goal is to find any number of one line commands that will:
     * run the HAYDEN_minotaur.sh script.
-    * Move the minotaur file into the root directory.
+    * Move the hidden minotaur file into the root directory.
   
     Useful commands that may help you out:
     cd, ls, mv, find, tree
