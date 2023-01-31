@@ -101,13 +101,20 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 ## 2. Self-referential Recursion
 
+
         Now you will learn that different commands may have similar flags.
         This puzzle consists of using different commands with the recursion flag.
     
     
     Your goal is to find any number of one line commands that will:
     * create the directories r/e/c/u/r/s/i/o/n recursivly
-    * 
+    * create an empty file at the end named recurison
+    * copy all these directories and file into a new directory call p
+    * recursivly delete the original file tree
+    * list the new file tree recursivly
+    
+    Useful commands that may help you out:
+    ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
 
 ## 3. Internet Expressway
 
