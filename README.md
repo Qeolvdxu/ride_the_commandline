@@ -57,6 +57,9 @@ These can be accessed with your UAH CS account through an ssh client such as put
 >   shrike.cs.uah.edu
 >    
 >   whirlwind.cs.uah.edu
+
+
+you can also use webpages.uah.edu if you are not a CS student
     
 
 TIP : Try to solve the puzzles manually via the command line, then write your script only after you know the solution
@@ -103,19 +106,17 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     
     
     Your goal is to find any number of one line commands that will:
+    * create the directories r/e/c/u/r/s/i/o/n recursivly
     * 
-    *
 
 ## 3. Internet Expressway
 
 
-        This puzzle consists of using data through the internet. Did you know we have a website?
-        It's uah.acm.org :)
-        Let's use our website as a data source.
+        This puzzle consists of interacting with data through the internet. 
         
       Your goal is to find any number of one line commands that will:
-      * print the additions and deletions (diff) between the uah wiki and the old uah wiki 
-      * do not create any files or directories for this challenge
+      * print the additions and deletions (diff) between the uah wiki and the old uah wiki WITHOUT creating any files
+      * download the zip of this repo
       
     Links :
     (https://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville) 
