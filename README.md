@@ -73,7 +73,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     * create a directory called step-by-step
     * move into the new directory
     * use the '>' command to store the output of 'ls ..' into a file 
-    TIP :  '..' is the parent directory while '.' is the current directory
+    * TIP :  '..' is the parent directory while '.' is the current directory
     * copy this files contents into a new file with a different name
     * remove the old copy
     * move the remianing dile into the parent directory
@@ -139,14 +139,16 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
         Who has ever said that using awk and sed is awkward? Not you! 
         Awk and Sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
-        We need some large body of text, the bee movie script included in this repo so lets try that.
-       (Make sure to keep your creative writing ACM friendly!)
+        We need some large body of text, the bee movie script included in this repo so lets try that.  
+        (Make sure to keep your creative writing ACM friendly!)  
     
     
     Your goal is to find any number of one line commands that will:
     * replace all instances of the word bee to another noun in the files data
     * write all lines that are over 70 characters to  a new file called new_bee_movie.txt
-    * 
+    * List all lines of the original file that are over 50 characters except ones including the word "honey"
+    * append these same lines to new_bee_movie.txt
+    * replace all instances of the word 'fly' to anohter verb in the files data
 
 
     Useful commands that may help you out:
