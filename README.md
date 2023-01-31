@@ -69,18 +69,18 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
          This puzzle consists of... nothing! You will use your basic command line skills to create, move, delete, 
          and copy files. The basics are all you need to solve this puzzle. 
 
-    * use 'git clone https://github.com/Qeolvdxu/ride_the_commandline' to get a copy of this repo
-    * create a directory called step-by-step
-    * move into the new directory
-    * use the '>' command to store the output of 'ls ..' into a file 
+    * Use 'git clone https://github.com/Qeolvdxu/ride_the_commandline' to get a copy of this repo
+    * Create a directory called step-by-step
+    * Move into the new directory
+    * Use the '>' command to store the output of 'ls ..' into a file 
     * TIP :  '..' is the parent directory while '.' is the current directory
-    * copy this files contents into a new file with a different name
-    * remove the old copy
-    * move the remianing dile into the parent directory
+    * Copy this files contents into a new file with a different name
+    * Remove the old copy
+    * Move the remianing file into the parent directory
 
 
     Useful commands that may help you out:
-    ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
+    ls, cd, mv, cp, >, rm, mkdir, man, whatis 
 
 
 ## 1. Minotaur
@@ -93,7 +93,7 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 
     Your goal is to find any number of one line commands that will:
-    * run the HAYDEN_minotaur.sh script.
+    * Run the HAYDEN_minotaur.sh script.
     * Move the hidden minotaur file into the root directory.
   
     Useful commands that may help you out:
@@ -107,23 +107,23 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
     
     
     Your goal is to find any number of one line commands that will:
-    * create the directories r/e/c/u/r/s/i/o/n recursivly
-    * create an empty file at the end named recurison
-    * copy all these directories and file into a new directory call p
-    * recursivly delete the original file tree
-    * list the new file tree recursivly
+    * Create the directories r/e/c/u/r/s/i/o/n recursivly
+    * Create an empty file at the end named recurison
+    * Copy all these directories and file into a new directory call p
+    * Recursivly delete the original file tree
+    * List the new file tree recursivly
     
     Useful commands that may help you out:
-    ls, cd, mv, cp, >, rm, mkdir, man, whatis, 
+    ls, cd, mv, cp, >, rm, mkdir, man, whatis
 
 ## 3. Internet Expressway
 
 
         This puzzle consists of interacting with data through the internet. 
         
-      Your goal is to find any number of one line commands that will:
-      * print the additions and deletions (diff) between the uah wiki and the old uah wiki WITHOUT creating any files
-      * download the zip of this repo
+    Your goal is to find any number of one line commands that will:
+    * print the additions and deletions (diff) between the uah wiki and the old uah wiki WITHOUT creating any files
+    * download the zip of this repo
       
     Links :
     (https://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville) 
@@ -137,18 +137,18 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 ## 4. AWKward... SED no one ever!
 
 
-        Who has ever said that using awk and sed is awkward? Not you! 
-        Awk and Sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
+        Who has ever said that using Awk and Sed is awkward? Not you! 
+        Awk and sed are perfect for some "Mad Libs". These two commands are great for analyzing and parsing text. 
         We need some large body of text, the bee movie script included in this repo so lets try that.  
         (Make sure to keep your creative writing ACM friendly!)  
     
     
     Your goal is to find any number of one line commands that will:
-    * replace all instances of the word bee to another noun in the files data
-    * write all lines that are over 70 characters to  a new file called new_bee_movie.txt
+    * Replace all instances of the word bee to another noun in the files data
+    * Write all lines that are over 70 characters to a new file called new_bee_movie.txt
     * List all lines of the original file that are over 50 characters except ones including the word "honey"
-    * append these same lines to new_bee_movie.txt
-    * replace all instances of the word 'fly' to anohter verb in the files data
+    * Append these same lines to new_bee_movie.txt
+    * Replace all instances of the word 'fly' to anohter verb in the files data
 
 
     Useful commands that may help you out:
@@ -166,9 +166,9 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
     Your goal is to find any number of one line commands that will:
     * Run the HAYDEN_trash.sh script
-    * compile the created files
-    * delete all source files for programs that do not compile
-    * organize the files into seperate directories based on return value
+    * Compile the created files
+    * Delete all source files for programs that do not compile
+    * Organize the files into seperate directories based on return value
 
 
 
@@ -185,10 +185,10 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
 
 
     Your goal is to find any number of one line commands that will:
-    * run the HAYDEN_swarm.sh script
-    * move to the newly created directory
-    * search the files contents to find the specific string ‘gg’ 
-    * rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
+    * Run the HAYDEN_swarm.sh script
+    * Move to the newly created directory
+    * Search the file's contents to find the specific string ‘gg’ 
+    * Rename the extension of the files whos contents contains ‘gg’ into *.hit from *.swarm
 
 
     Useful commands that may help you out:
