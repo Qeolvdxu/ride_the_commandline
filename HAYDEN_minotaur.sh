@@ -18,8 +18,6 @@ do
     cd "path_$x"
 done
 
-touch minotaur
-
-echo "./TAKIN_OUT_DA_TRASH/$FILENAME.c"
+touch .minotaur
 
 exit
