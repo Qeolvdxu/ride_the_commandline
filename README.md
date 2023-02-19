@@ -123,7 +123,6 @@ TIP : Try to solve the puzzles manually via the command line, then write your sc
         
     Your goal is to find any number of one line commands that will:
     * print the additions and deletions (diff) between the uah wiki and the old uah wiki WITHOUT creating any files
-    * download the zip of this repo
       
     Links :
     (https://en.wikipedia.org/wiki/University_of_Alabama_in_Huntsville) 
